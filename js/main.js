@@ -28,10 +28,10 @@
         }
         else {
           webForm.innerHTML += `
-          <label>
-            <span class="fieldLabel">${formField.label}</span>
+          <label class="fieldLabel">
+            <span class="fieldLabel__text">${formField.label}</span>
             <input class="formInput" type="${formField.type}" placeholder="${formField.label}" id="${formField.id}">
-            <i class="${formField.icon}"></i>
+            <i class="fa ${formField.icon}"></i>
           </label>
           `;
         };

@@ -64,4 +64,70 @@
 html {
   font-size: 62.5%; }
 
+body {
+  font-size: 1.4rem;
+  font-family: helvetica;
+  width: 50rem; }
+
+.form-wrapper {
+  display: block;
+  padding: 2rem;
+  -webkit-box-shadow: 1px 0px 1px 1px #8a888a;
+  -moz-box-shadow: 1px 0px 1px 1px #8a888a;
+  box-shadow: 1px 0px 1px 1px #8a888a; }
+
+.fieldLabel {
+  color: #999999; }
+
+.fieldLabel__text {
+  font-size: 0; }
+
+.formInput {
+  height: 2.5rem;
+  display: block;
+  width: 90%;
+  margin: 1rem 1rem;
+  padding-left: 2rem;
+  border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px; }
+
+.formSelect {
+  display: block;
+  width: 96%;
+  margin: auto;
+  height: 2.5rem; }
+
+[class^=fa] {
+  transform: translateY(-250%); }
+
+.header-block {
+  color: white;
+  background-color: #2e88d1;
+  padding: 1rem;
+  padding-left: 2rem;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px; }
+
+.form-name {
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin: 1rem; }
+
+.footer-block {
+  padding: 2rem;
+  background-color: #d5e7f6;
+  border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 5px 5px; }
+
+.submit-button {
+  background-color: #2e88d1;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px; }
+
 /*# sourceMappingURL=main.css.map */
