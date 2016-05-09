@@ -15,7 +15,7 @@
       formDataArray.forEach(function(formField){
         if (formField.type === "select") {
           //open select tag
-          var selectHTML = "<select>"
+          var selectHTML = "<select class='formSelect'>"
           // loop over options
           formField.options.forEach(function(option){
             selectHTML += `<option value="${option.value}">${option.label}</option>`
@@ -28,7 +28,11 @@
         }
         else {
           webForm.innerHTML += `
-          <input type="${formField.type}" placeholder="${formField.label}" id="${formField.id}">
+          <label class="fieldLabel">
+            <span class="fieldLabel__text">${formField.label}</span>
+            <input class="formInput" type="${formField.type}" placeholder="${formField.label}" id="${formField.id}">
+            <i class="fa ${formField.icon}"></i>
+          </label>
           `;
         };
 
